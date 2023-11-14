@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1536px;
+    height: 703px;
+    background-image: url("img/bg.jpg");
+}
+
+.search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inp {
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-left: solid 3px black;
+    border-right: none;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
+
+.searchBtn {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-left: none;
+    border-right: solid 3px black;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.searchBtn:hover {
+    color:white;
+    background-color: black;
+}
+.weatherCards {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    cursor: grab;
+    user-select: none;
+    border-radius: 30px;
+    border: solid 3px white;
+    background-color: #ceadff;
+    margin: auto;
+    width: 220px;
+    height: 350px;
+    text-align: center;
+}
+.card:active{
+    cursor: grabbing;
+}
+.weather_img {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+}
+.card p {
+    width: 100%;
+    font-size: 20px;
+}
+.card p:first-of-type{
+    margin-top: 5px;
+}
+.btnRemove {
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: solid 3px white;
+    background: transparent;
+    width: 150px;
+    height: 20px;
+}
+.btnRemove:hover{
+    border: solid 3px black;
+}
