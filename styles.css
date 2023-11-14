@@ -8,7 +8,7 @@
     margin: 0 auto;
     width: 1536px;
     height: 703px;
-    background-image: url("img/bg.jpg");
+    background-image: url("../img/bg.jpg");
 }
 
 .search {
